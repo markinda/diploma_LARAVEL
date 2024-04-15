@@ -1,0 +1,139 @@
+.form {
+    background: transparent;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #c0c0c0;
+    font-size: 18px;
+    padding: 32px;
+
+    &__position {
+       margin: auto;
+    }
+
+    &__product {
+        width: 400px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #c0c0c0;
+        font-size: 18px;
+        padding: 32px;
+
+        @media screen and (max-width: 568px) {
+            width: 260px;
+            font-size: 16px;
+            padding: 15px;
+        }
+    }
+
+    &__title {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 24px;
+        color: #c0c0c0;
+
+        @media screen and (max-width: 568px) {
+            font-size: 18px;
+        }
+    }
+
+    &__form {
+        margin-top: 30px;
+    }
+
+    &__images {
+        width: 55%;
+        cursor: pointer;
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        @media screen and (max-width: 568px) {
+            width: 100%;
+        }
+
+        span {
+            color: #c0c0c0;
+        }
+    }
+
+    &__svg {
+        margin-right: 20px;
+
+        path {
+            fill:  #c0c0c0;
+        }
+    }
+
+    &__input {
+        width: 95%;
+        margin: 10px 0;
+        font-size: 18px;
+        border: none;
+        border-bottom: thin solid #c0c0c0;
+        color: #c0c0c0;
+        outline: none;
+
+        &:focus {
+            border-bottom: thin solid #ffb6c1;
+        }
+
+        &::placeholder {
+            color: #c0c0c0;
+        }
+
+        &_hidden {
+            position: absolute;
+            opacity: 0;
+            margin: 0;
+            top: 0;
+            z-index: 100;
+            cursor: pointer;
+        }
+
+        @media screen and (max-width: 568px) {
+            width: 100%;
+            font-size: 14px;
+        }
+    }
+
+    &__button {
+        margin: 20px 30px 0 20px;
+        border: thin solid #ffb6c1;
+        background: #ffb6c1;
+        width: 138px;
+        height: 30px;
+        border-radius: 10px;
+        color: #fff;
+        transition: .4s;
+        outline: none;
+        cursor: pointer;
+        font-size: 14px;
+
+        &:hover {
+            transition: all ease .4s;
+            border: thin solid #c0c0c0;
+            background: #c0c0c0;
+        }
+    }
+
+    &__error {
+        width: 95%;
+        color: #eb5d48;
+        font-size: 14px;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    @media screen and (max-width: 568px) {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}

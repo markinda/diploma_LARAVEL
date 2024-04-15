@@ -1,0 +1,13 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/css/var.css": "/css/var.css",
+    "/css/body.css": "/css/body.css",
+    "/css/about.css": "/css/about.css",
+    "/css/main/main.css": "/css/main/main.css",
+    "/css/footer/footer.css": "/css/footer/footer.css",
+    "/css/header/header.css": "/css/header/header.css",
+    "/css/header/nav.css": "/css/header/nav.css",
+    "/css/form/form.css": "/css/form/form.css",
+    "/css/button/button.css": "/css/button/button.css"
+}

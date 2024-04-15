@@ -1,0 +1,46 @@
+.about {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0 15px;
+  background: white;
+}
+
+.about__img {
+  margin: 20px 0;
+  padding: 30px 0;
+  position: relative;
+}
+
+.about__img img {
+  width: 100%;
+}
+
+.about .about h1 {
+  color: #808080;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.about p {
+  color: #808080;
+  line-height: 1.5;
+  margin-bottom: 1em;
+  text-align: justify;
+}
+
+.about__title h1 {
+  color: #808080;
+}
+
+.about__text {
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 1em;
+  text-align: justify;
+  color: #808080;
+}
+
+.about__content {
+  color: #808080;
+}
+

@@ -1,0 +1,45 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.nav__col {
+  margin: 0 1rem;
+}
+
+.nav__link {
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.nav__link_hover:hover {
+  color: #808080;
+  transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    justify-content: normal;
+  }
+
+  .nav__col {
+    margin: 0 0.4rem;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav__col {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+}
+

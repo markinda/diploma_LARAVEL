@@ -1,0 +1,59 @@
+.card-product {
+    margin: 0 75px 50px 75px;
+    width: 270px;
+    transition: 0.3s;
+    height: auto;
+    position: relative;
+    background: #f8f8f8;
+    border-radius: 5px;
+
+    @media screen and (max-width: 568px) {
+        margin: 0 0 50px 0;
+    }
+
+    &__img {
+        height: 190px;
+        width: 165px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    &__content {
+        margin: 20px 0 50px 0;
+
+        @media screen and (max-width: 568px) {
+            margin: 20px 0 20px 0;
+        }
+    }
+
+    p {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    &__price {
+        display: flex;
+        justify-content: center;
+        color: #ffb6c1;
+        font-size: 22px;
+    }
+
+    &__count {
+        color: #808080;
+    }
+
+    &__name {
+        color: #808080;
+    }
+}
+
+.content-product {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px;
+
+    @media screen and (max-width: 320px) {
+        margin: 20px;
+    }
+}
+

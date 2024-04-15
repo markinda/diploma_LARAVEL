@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif, Arial;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-size: 18px;
+    font-family: sans-serif, Arial;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+html::-webkit-scrollbar {
+    width: 0;
+}

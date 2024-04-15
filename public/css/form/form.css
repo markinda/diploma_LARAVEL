@@ -1,0 +1,158 @@
+.form {
+  background: transparent;
+  width: 200px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #c0c0c0;
+  font-size: 18px;
+  padding: 32px;
+}
+
+.form__position {
+  margin: auto;
+}
+
+.form__product {
+  width: 400px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #c0c0c0;
+  font-size: 18px;
+  padding: 32px;
+}
+
+@media screen and (max-width: 568px) {
+  .form__product {
+    width: 260px;
+    font-size: 16px;
+    padding: 15px;
+  }
+}
+
+.form__title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  color: #c0c0c0;
+}
+
+@media screen and (max-width: 568px) {
+  .form__title {
+    font-size: 18px;
+  }
+}
+
+.form__form {
+  margin-top: 30px;
+}
+
+.form__images {
+  width: 55%;
+  cursor: pointer;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+@media screen and (max-width: 568px) {
+  .form__images {
+    width: 100%;
+  }
+}
+
+.form__images span {
+  color: #c0c0c0;
+}
+
+.form__svg {
+  margin-right: 20px;
+}
+
+.form__svg path {
+  fill: #c0c0c0;
+}
+
+.form__input {
+  width: 95%;
+  margin: 10px 0;
+  font-size: 18px;
+  border: none;
+  border-bottom: thin solid #c0c0c0;
+  color: #c0c0c0;
+  outline: none;
+}
+
+.form__input:focus {
+  border-bottom: thin solid #ffb6c1;
+}
+
+.form__input::-moz-placeholder {
+  color: #c0c0c0;
+}
+
+.form__input:-ms-input-placeholder {
+  color: #c0c0c0;
+}
+
+.form__input::placeholder {
+  color: #c0c0c0;
+}
+
+.form__input_hidden {
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  top: 0;
+  z-index: 100;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 568px) {
+  .form__input {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+
+.form__button {
+  margin: 20px 30px 0 20px;
+  border: thin solid #ffb6c1;
+  background: #ffb6c1;
+  width: 138px;
+  height: 30px;
+  border-radius: 10px;
+  color: #fff;
+  transition: 0.4s;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.form__button:hover {
+  transition: all ease 0.4s;
+  border: thin solid #c0c0c0;
+  background: #c0c0c0;
+}
+
+.form__error {
+  width: 95%;
+  color: #eb5d48;
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 568px) {
+  .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
